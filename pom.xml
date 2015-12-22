@@ -122,13 +122,13 @@
 				</exclusion>			
 			</exclusions>
 		</dependency>
-		<!-- mybatisºËÐÄ°ü -->
+		<!-- mybatisï¿½ï¿½ï¿½Ä°ï¿½ -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
 			<version>3.2.3</version>
 		</dependency>
-		<!-- mybatis/spring°ü -->
+		<!-- mybatis/springï¿½ï¿½ -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
