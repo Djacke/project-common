@@ -101,11 +101,6 @@
   			<artifactId>metrics-core</artifactId>
   			<version>2.2.0</version>
 		</dependency>
-		<dependency>
-  			<groupId>org.csource</groupId>
-  			<artifactId>fastdfs</artifactId>
-  			<version>1.24</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
