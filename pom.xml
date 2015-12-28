@@ -11,7 +11,7 @@
 
 	<groupId>com.project</groupId>
 	<artifactId>project-common</artifactId>
-	<version>${lenovo-project-snapshot_version}</version>
+	<version>${bootstrap-common}</version>
 	<packaging>jar</packaging>
 
 	<build />
@@ -122,13 +122,13 @@
 				</exclusion>			
 			</exclusions>
 		</dependency>
-		<!-- mybatisºËÐÄ°ü -->
+		<!-- mybatisÂºÃ‹ÃÃ„Â°Ã¼ -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
 			<version>3.2.3</version>
 		</dependency>
-		<!-- mybatis/spring°ü -->
+		<!-- mybatis/springÂ°Ã¼ -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
