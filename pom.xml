@@ -11,7 +11,7 @@
 
 	<groupId>com.project</groupId>
 	<artifactId>project-common</artifactId>
-	<version>${lenovo-project-snapshot_version}</version>
+	<version>${bootstrap-common}</version>
 	<packaging>jar</packaging>
 
 	<build />
