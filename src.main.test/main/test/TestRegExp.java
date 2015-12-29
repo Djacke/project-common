@@ -4,7 +4,5 @@ public class TestRegExp {
 	
 	public static void main(String[] args){
 		
-		
-		
 	}
 }
