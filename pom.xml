@@ -295,11 +295,12 @@
 		  <artifactId>lucene-sandbox</artifactId>
 		  <version>4.10.2</version>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 		  <groupId>org.wltea.ik-analyzer</groupId>
 		  <artifactId>ik-analyzer</artifactId>
 		  <version>2012</version>
 		</dependency>
+		-->
 		<!-- mongo -->
 		<dependency>
 			<groupId>org.mongodb</groupId>
