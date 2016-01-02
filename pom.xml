@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.bootstrap</groupId>
-		<artifactId>bootstrap-parent</artifactId>
+		<groupId>com.project</groupId>
+		<artifactId>project-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.project</groupId>
 	<artifactId>project-common</artifactId>
-	<version>${bootstrap-common}</version>
+	<version>${project-common}</version>
 	<packaging>jar</packaging>
 
 	<build />
