@@ -11,7 +11,7 @@
 
 	<groupId>com.project</groupId>
 	<artifactId>project-common</artifactId>
-	<version>${project-common}</version>
+	<version>${project-snapshot_version}</version>
 	<packaging>jar</packaging>
 
 	<build />
@@ -92,15 +92,20 @@
 			<artifactId>scala-library</artifactId>
 			<version>2.10.1</version>
 		</dependency>
-		<!--<dependency>
+		<dependency>
 			<groupId>com.github.sgroschupf</groupId>
 			<artifactId>zkclient</artifactId>
-		</dependency>-->
+		</dependency>
 		<dependency>
   			<groupId>com.yammer.metrics</groupId>
   			<artifactId>metrics-core</artifactId>
   			<version>2.2.0</version>
 		</dependency>
+<!-- 		<dependency>
+  			<groupId>org.csource</groupId>
+  			<artifactId>fastdfs</artifactId>
+  			<version>1.24</version>
+		</dependency> -->
 
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -117,47 +122,39 @@
 				</exclusion>			
 			</exclusions>
 		</dependency>
-		<!-- mybatis -->
+		<!-- mybatis核心包 -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
 			<version>3.2.3</version>
 		</dependency>
-		<!-- mybatis/spring-->
+		<!-- mybatis/spring包 -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
 			<version>1.2.2</version>
 		</dependency>
-		<!--<dependency>
+		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
-		</dependency>-->
+		</dependency>
 		<dependency>
 			<groupId>commons-beanutils</groupId>
 			<artifactId>commons-beanutils</artifactId>
 			<version>1.8.3</version>
 		</dependency>
+		
+		<dependency>
+		  <groupId>commons-collections</groupId>
+		  <artifactId>commons-collections</artifactId>
+		  <version>3.2.2</version>
+		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>${log4j_version}</version>
-		    <!--<exclusions>  
-                <exclusion>  
-                    <groupId>javax.jms</groupId>  
-                    <artifactId>jms</artifactId>  
-                </exclusion>  
-                <exclusion>  
-                    <groupId>com.sun.jdmk</groupId>  
-                    <artifactId>jmxtools</artifactId>  
-                </exclusion>  
-                <exclusion>  
-                    <groupId>com.sun.jmx</groupId>  
-                    <artifactId>jmxri</artifactId>  
-                </exclusion>  
-            </exclusions>-->  
 		</dependency>
-		<!--<dependency>
+		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 		</dependency>
@@ -165,24 +162,22 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
-		</dependency>-->
 
 		<dependency>
 			<groupId>commons-configuration</groupId>
 			<artifactId>commons-configuration</artifactId>
 			<version>1.8</version>
 		</dependency>
-
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>1.1.18</version>
-
 		</dependency>
 
 		<dependency>
@@ -205,6 +200,12 @@
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
+		</dependency>
+		
+		<dependency>
+			 <groupId>javax.validation</groupId>
+			 <artifactId>validation-api</artifactId>
+			 <version>1.0.0.GA</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-fileupload</groupId>
@@ -240,9 +241,9 @@
 		<dependency>
 			<groupId>commons-logging</groupId>
 			<artifactId>commons-logging</artifactId>
-			<version>1.2</version>
+ 			<version>1.2</version>
 		</dependency>
-		<dependency>
+ 		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
 			<version>1.4</version>
@@ -283,12 +284,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!--<dependency>
-		  <groupId>org.csource</groupId>
-		  <artifactId>fastdfs</artifactId>
-		  <version>1.24</version>
-		</dependency>
-		-->
+
 		<!-- lucene -->
 		<dependency>
 		  <groupId>org.apache.lucene</groupId>
@@ -310,32 +306,11 @@
 		  <artifactId>lucene-sandbox</artifactId>
 		  <version>4.10.2</version>
 		</dependency>
-		<dependency>
-			<groupId>commons-httpclient</groupId>
-			<artifactId>commons-httpclient</artifactId>
-			<version>3.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.4.1</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.validation</groupId>
-			<artifactId>validation-api</artifactId>
-			<version>${validation_version}</version>
-		</dependency>
-		<dependency>
-		  	<groupId>org.apache</groupId>
-		  	<artifactId>common-collections</artifactId>
-		  	<version>4.1</version>
-		</dependency>
-		<!--<dependency>
+<!-- 		<dependency>
 		  <groupId>org.wltea.ik-analyzer</groupId>
 		  <artifactId>ik-analyzer</artifactId>
 		  <version>2012</version>
-		</dependency>
-		-->
+		</dependency> -->
 		<!-- mongo -->
 		<dependency>
 			<groupId>org.mongodb</groupId>
@@ -348,11 +323,11 @@
 			<version>1.7.0.RELEASE</version>
 		</dependency>
 		<dependency>
-			 <groupId>com.sun</groupId>
-			 <artifactId>dt</artifactId>
-			 <version>1.7</version>
-			 <scope>system</scope>
-			 <systemPath>${JAVA_HOME}/lib/dt.jar</systemPath>
+		 <groupId>com.sun</groupId>
+		 <artifactId>dt</artifactId>
+		 <version>1.7</version>
+		 <scope>system</scope>
+		 <systemPath>${JAVA_HOME}/lib/dt.jar</systemPath>
 		</dependency>
 	</dependencies>
 </project>
