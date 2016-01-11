@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.boostrap</groupId>
-		<artifactId>boostrap-parent</artifactId>
+		<groupId>com.project</groupId>
+		<artifactId>project-parent</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
@@ -122,13 +122,13 @@
 				</exclusion>			
 			</exclusions>
 		</dependency>
-		<!-- mybatisºËÐÄ°ü -->
+		<!-- mybatisï¿½ï¿½ï¿½Ä°ï¿½ -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
 			<version>3.2.3</version>
 		</dependency>
-		<!-- mybatis/spring°ü -->
+		<!-- mybatis/springï¿½ï¿½ -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
@@ -323,10 +323,5 @@
 		 <systemPath>${JAVA_HOME}/lib/dt.jar</systemPath>
 		</dependency>
 	</dependencies>
-<project>
-addd
-adddd
-addd
-addd
-adddd
+</project>
 
