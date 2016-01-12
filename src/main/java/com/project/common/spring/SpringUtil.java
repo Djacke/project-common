@@ -1,4 +1,4 @@
-package com.project.common.utils;
+package com.project.common.spring;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.BeansException;

@@ -7,7 +7,7 @@ import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 
 import com.project.common.mybatis.annotation.DatabaseTemplate;
-import com.project.common.utils.SpringUtil;
+import com.project.common.spring.SpringUtil;
 
 public class BaseIbatisDao extends SqlSessionDaoSupport{
 	protected final Log log = LogFactory.getLog(getClass());
