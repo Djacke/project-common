@@ -47,7 +47,7 @@ public class KafkaProducer {
 	}
 
 	/**
-	 * 发�?消息	
+	 * 发送消息	
 	 * 
 	 * @param topicName
 	 * @param message
@@ -62,7 +62,7 @@ public class KafkaProducer {
 	}
 
 	/**
-	 * 分区下发送消�?
+	 * 分区下发送消息
 	 * 
 	 * @param topicName
 	 * @param message
@@ -79,7 +79,7 @@ public class KafkaProducer {
 	}
 
 	/**
-	 * 批量发�?消息
+	 * 批量发送消息
 	 * 
 	 * @param topicName
 	 * @param messages
@@ -101,7 +101,7 @@ public class KafkaProducer {
 	}
 
 	/**
-	 * 批量发�?消息，分区情况下
+	 * 批量发送消息，分区情况下
 	 * 
 	 * @param topicName
 	 * @param messages
