@@ -10,5 +10,5 @@
 	
 	<bean class="com.project.common.spring.SpringUtil" />
 	<context:annotation-config />
-	<context:component-scan base-package="com.projet" />
+<!-- 	<context:component-scan base-package="com.lenovo" /> -->
 </beans>
