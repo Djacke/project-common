@@ -13,7 +13,7 @@ public class SpringUtil implements ApplicationContextAware{
 
 	private static ApplicationContext applicationContext;
 
-	private static Logger logger = Logger.getLogger(SpringUtil.class);
+//	private static Logger logger = Logger.getLogger(SpringUtil.class);
 
 	@Override
 	public void setApplicationContext(ApplicationContext context)
